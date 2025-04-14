@@ -1,7 +1,9 @@
-Cypress.Commands.add('login', (email, senha) => {
+const shipping = Cypress.env('shippingData')
+
+Cypress.Commands.add('login', () => {
   cy.visit('/customer/account/login/');
-  cy.get('#email').type(email);
-  cy.get('#pass').type(senha);
+  cy.get('#email').type(shipping.myemail);
+  cy.get('#pass').type(shipping.mypass);
   cy.get('#send2').click();
 });
 
