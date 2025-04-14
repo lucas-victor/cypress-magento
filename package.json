@@ -1,0 +1,16 @@
+{
+  "name": "cypress-magento-teste",
+  "version": "1.0.0",
+  "description": "Automação de testes com Cypress no Magento Demo",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^12.17.4"
+  },
+  "main": "cypress.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
