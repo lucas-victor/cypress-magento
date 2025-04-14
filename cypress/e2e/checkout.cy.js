@@ -26,4 +26,6 @@ describe('Realizar compra', () => {
     cy.addInformacoesUsuarioShippingAddress()
 
   })
+
+  
 })
