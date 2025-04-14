@@ -9,10 +9,9 @@ module.exports = defineConfig({
     
   },
   env: {
-    userEmail: 'teste@exemplo.com',
     shippingData: {
-      firstName: 'João',
-      lastName: 'Silva',
+      firstName: 'Lucas',
+      lastName: 'Victor',
       company: 'Empresa XYZ',
       street: 'Rua das Flores, 123',
       country: 'United States',
@@ -22,8 +21,8 @@ module.exports = defineConfig({
       phone: '1234567890',
       email: `joao${Date.now()}@teste.com`,
       password: 'Teste1234!',
-      myemail: 'lucas.a.victor@gmail.com',
-      mypass: 'test1123'
+      myemail: `lucas.a.victor${Date.now()}@gmail.com`,
+      mypass: 'Teste1234!'
       
      }   
   }

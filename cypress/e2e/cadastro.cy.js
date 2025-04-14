@@ -5,8 +5,8 @@ describe('Cadastro de novo usuário', () => {
     cy.visit('/customer/account/create/')
     cy.get('#firstname').type(shipping.firstName)
     cy.get('#lastname').type(shipping.lastName)
-    cy.get('#email_address').type(shipping.email)
-    cy.get('#password').type(shipping.password)
+    cy.get('#email_address').type(shipping.myemail)
+    cy.get('#password').type(shipping.mypass)
     cy.get('#password-confirmation').type(shipping.password)
     cy.get('button[title="Create an Account"]').click()
 
